@@ -43,8 +43,8 @@ app.use(function(req, res, next){
 });
 
 
-let moreInfo = ['My favorite software is Adobe', 'My favorite food is corn + fish', "I was once interviewed by GameStop"]
-let secretMessage = ['this is a secret message, how dare you find it T.T']
+let moreInfo = ['Email: claudiamartinez@gmail.com', 'LinkedIn:', "itch.io:"]
+let secretMessage = ['Hello my name is Claudia']
 //home
 app.get('/', function(req, res) {
   res.render('home');
